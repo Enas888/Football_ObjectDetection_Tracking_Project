@@ -1,6 +1,6 @@
 # football analysis using YOLO model
 
-📌 Project Pipeline Overview
+# 📌 Project Pipeline Overview
 
 This project implements an end-to-end football video analysis pipeline that performs object detection, multi-object tracking, and visualization using a deep learning model.
 
@@ -67,6 +67,6 @@ Drawing is done directly on the frames to prepare them for export.
 
 The final result is an annotated football video showing tracked players, referees, and the ball with consistent IDs across frames, ready for further analysis or visualization.
 
-<img width="1554" height="816" alt="image" src="https://github.com/user-attachments/assets/2e898384-e3fd-443a-a7f0-fb3cb55d7b87" />
+<img width="1554" height="816" alt="image" src="https://github.com/user-attachments/assets/2e898384-e3fd-443a-a7f0-fb3cb55d7b87"/>
 
 
