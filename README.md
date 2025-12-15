@@ -16,11 +16,11 @@ A pretrained YOLO model is used to detect objects in each frame.
 
 Target classes include:
 
-Players
+- Players
 
-Referees
+- Referees
 
-Ball
+- Ball
 
 Frames are processed in batches to reduce memory usage and improve performance.
 
@@ -41,29 +41,27 @@ Goalkeepers are reclassified as players to simplify player analysis.
 
 Tracking results are stored in a structured format:
 
-Separate tracks for players, referees, and the ball
+- Separate tracks for players, referees, and the ball
 
-Bounding boxes indexed by frame number and track ID
-
-Optional caching using pickle is supported to avoid re-running detection.
+- Bounding boxes indexed by frame number and track ID
 
 🔹 5. Visualization
 
 Bounding boxes and tracking IDs are drawn on video frames:
 
-Players → Green
+- Players → Green
 
-Referees → Red
+- Referees → Red
 
-Ball → Blue
+- Ball → Blue
 
 Drawing is done directly on the frames to prepare them for export.
 
 🔹 6. Video Output
 
-The processed frames are saved as a new video file.
+- The processed frames are saved as a new video file.
 
-The output video preserves the original frame rate and resolution while adding visual tracking annotations.
+- The output video preserves the original frame rate and resolution while adding visual tracking annotations.
 
 ✅ Final Output
 
