@@ -1,1 +1,6 @@
-altralytics==1.2.3
+altralytics
+openCV-python
+supervision
+sklearn
+pip install scikit-learn
+pandas
